@@ -1,0 +1,40 @@
+{
+  "name": "ndarray-moments",
+  "version": "0.0.0",
+  "description": "Statistical moments of ndarrays",
+  "main": "moments.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cwise": "~0.1.2",
+    "ndarray": "~0.2.2"
+  },
+  "devDependencies": {
+    "tap": "~0.4.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/ndarray-moments.git"
+  },
+  "keywords": [
+    "moment",
+    "statistics",
+    "mean",
+    "variance",
+    "standard",
+    "deviation",
+    "kurtosis",
+    "skewness",
+    "average",
+    "ndarray",
+    "sample"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "f4471a786b5d3dca172a25c7fe12b707320cdaf4"
+}
