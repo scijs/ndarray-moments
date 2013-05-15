@@ -9,9 +9,10 @@ function genMomentFunc(n) {
   for(var i=0; i<n; ++i) {
     pre.push("this.m" + i + " = 0.0")
   }
-  var body = ["var x = a", "this.m0 += x"]
+  var body = ["var x = a, y = a", "this.m0 += x"]
   for(var i=1; i<n; ++i) {
-    body.push("this.m" + i + " += this.m" + (i-1) + "*x")
+    body.push("x *= y")
+    body.push("this.m" + i + " += x")
   }
   var post = ["return [this.m0",]
   for(var i=1; i<n; ++i) {

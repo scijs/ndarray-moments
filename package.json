@@ -1,6 +1,6 @@
 {
   "name": "ndarray-moments",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Statistical moments of ndarrays",
   "main": "moments.js",
   "directories": {
