@@ -1,17 +1,17 @@
 {
   "name": "ndarray-moments",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Statistical moments of ndarrays",
   "main": "moments.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "cwise": "~0.1.2",
-    "ndarray": "~0.2.2"
+    "cwise": "~0.3.2"
   },
   "devDependencies": {
-    "tap": "~0.4.2"
+    "tap": "~0.4.2",
+    "ndarray": "~1.0.0"
   },
   "scripts": {
     "test": "tap test/*.js"

@@ -1,6 +1,5 @@
 "use strict"
 
-var ndarray = require("ndarray")
 var cwise = require("cwise")
 var cached = []
 
@@ -36,7 +35,7 @@ module.exports = function computeMoments(n, array) {
     cached[n] = mgf
   }
   var moments = mgf(array)
-    , denom = ndarray.size(array)
+    , denom = array.size
   for(var i=0; i<n; ++i) {
     moments[i] /= denom
   }
