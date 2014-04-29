@@ -1,13 +1,13 @@
 {
   "name": "ndarray-moments",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Statistical moments of ndarrays",
   "main": "moments.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "cwise": "~0.3.2"
+    "cwise": "^1.0.0"
   },
   "devDependencies": {
     "tap": "~0.4.2",
@@ -36,5 +36,8 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "f4471a786b5d3dca172a25c7fe12b707320cdaf4"
+  "gitHead": "f4471a786b5d3dca172a25c7fe12b707320cdaf4",
+  "browserify": {
+    "transform": ["cwise"]
+  }
 }
